@@ -1,3 +1,4 @@
+
 // Fonction pour récupérer et afficher les citations
 async function afficherCitations() {
     try {
@@ -71,5 +72,5 @@ form.addEventListener('submit', async (event) => {
         console.error(`Erreur lors de l'ajout de la citation :`, error);
         alert("Impossible d'ajouter la citation. Vérifiez le serveur.");
     }
+    
 });
-

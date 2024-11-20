@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Citation</title>
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="icon" type="image/png" href="flavicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="flavicon/favicon.svg" />
+    <link rel="shortcut icon" href="flavicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="flavicon/apple-touch-icon.png" />
+    <link rel="manifest" href="flavicon/site.webmanifest" />
+</head>
+<body>
+    <div class="container">
+        <h1>Ajouter une Citation</h1>
+        <form id="citation-form">
+            <label for="author">Auteur :</label>
+            <input type="text" id="author" name="author" placeholder="Nom de l'auteur" required>
+
+            <label for="quote">Citation :</label>
+            <textarea id="quote" name="quote" placeholder="Écrivez la citation ici" required></textarea>
+
+            <button type="submit">Ajouter</button>
+        </form>
+        <div id="citation-display">
+            <h2>Affichage des Citations</h2>
+            <ul id="citation-list"></ul>
+            <script src="asset/main.js"></script>
+        </div>
+    </div>
+</body>
+</html>

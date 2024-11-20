@@ -72,3 +72,4 @@ form.addEventListener('submit', async (event) => {
         alert("Impossible d'ajouter la citation. Vérifiez le serveur.");
     }
 });
+

@@ -2,6 +2,7 @@
   "name": "Citations",
   "short_name": "Citations",
   "start_url":"http://localhost:8000",
+  "description": "A toi de répertorier toute les meilleurs citations du monde grâce à cette application génial",
 
 
 "screenshots": [

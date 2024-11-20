@@ -3,6 +3,23 @@
   "short_name": "Citations",
   "start_url":"http://localhost:8000",
 
+
+"screenshots": [
+  {
+    "src": "/flavicon/web-app-manifest-512x512.png",
+    "sizes": "512x512",
+    "type": "image/webp",
+    "form_factor": "wide",
+    "label": "Home screen showing main navigation and featured content"
+  },
+  {
+  "src": "/flavicon/web-app-manifest-512x512.png",
+    "sizes": "512x512",
+    "type": "image/webp",
+    "form_factor": "narrow",
+    "label": "Home screen showing main navigation and featured content"
+  }
+],
   "icons": [
     {
       "src": "/flavicon/web-app-manifest-192x192.png",
@@ -30,7 +47,11 @@
       "type": "image/png",
       "purpose": "any"
     }
+
+    
   ],
+
+  
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone"
